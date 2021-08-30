@@ -20,7 +20,7 @@ public class Rev_sentense {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter string:- ");
-		String s = sc.next();
+		String s = sc.nextLine();
 
 		String[] arr = s.split(" ");
 
