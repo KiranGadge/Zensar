@@ -1,4 +1,4 @@
-package CompareTo;
+package Comparable;
 
 public class Student1 implements Comparable<Student1>
 {
@@ -62,9 +62,9 @@ public Student1() {
 	
 	public int compareTo(Student1 o) {
 	
-		if(o.name.length()<this.name.length())
+		if(o.percent<this.percent)
 			return -1;
-		else if(o.name.length()>this.name.length())
+		else if(o.percent>this.percent)
 			return +1;
 		else 
 			return 0;
