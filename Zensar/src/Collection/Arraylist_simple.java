@@ -23,7 +23,7 @@ public class Arraylist_simple {
 		ArrayList s = new ArrayList();
 		s.add("A");
 		s.add("B");
-		s.add("C");
+		s.add(10);
 		s.add("D");
 		s.add("E");
 		

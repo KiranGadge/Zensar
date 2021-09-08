@@ -13,6 +13,7 @@ public class Stack_demo {
 		s.push(30);
 		s.push(40);
 		s.push(50);
+		s.push(60);
 		System.out.println("Stack:- "+s);
 		s.pop();
 		System.out.println("After pop stack:- "+s);

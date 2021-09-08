@@ -15,6 +15,7 @@ public class arrayList {
 		al.add("B");
 		al.add("C");
 		
+		
 		System.out.println("Elments are:- "+al);
 		System.out.println(al.size());
 		//al.clear();
@@ -22,7 +23,7 @@ public class arrayList {
 		al.add("kiran");
 		al.add("Gadge");
 		System.out.println("Duplicate elements added:- "+al);
-		al.remove("Gadge");//remove deletes first occurance of element. 
+		al.remove("Gadge");//remove first occurance of element. 
 		System.out.println("After removing element Gadge:- "+al);
 		System.out.println("Contains method:- "+al.contains("kiran"));
 		
