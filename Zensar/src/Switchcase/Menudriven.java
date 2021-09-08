@@ -53,7 +53,7 @@ public class Menudriven {
 					System.out.println("Enter the side of square:- ");
 					int s = sc.nextInt();
 					int periS = 4 * s;
-					System.out.println("Area of square is:- "+periS);
+					System.out.println("Perimeter of square is:- "+periS);
 					break;
 				default:
 					System.out.println("Thank you!!");
